@@ -1,0 +1,117 @@
+Credits:
+
+Sonic 2 Disassembly contributors
+- for pointing out bugs by leaving comments in the code itself
+
+FraGag
+- Demo playback button behaviour fix
+http://info.sonicretro.org/SCHG_How-to:Fix_demo_playback
+- Nemesis decompression race condition fix
+http://info.sonicretro.org/SCHG_How-to:Fix_a_race_condition_with_Pattern_Load_Cues
+
+MoDule
+- Super Sonic bugs
+http://info.sonicretro.org/SCHG_How-to:Fix_bugs_relating_to_Super_Sonic
+- Roll-jump collision height fix
+http://info.sonicretro.org/SCHG_How-to:Use_correct_height_when_roll_jumping
+- Jump height when exiting water fix
+http://info.sonicretro.org/SCHG_How-to:Fix_jump_height_bug_when_exiting_water
+- Camera height when playing as Tails fix
+http://info.sonicretro.org/SCHG_How-to:Fix_camera_y_position_for_Tails
+- ARZ boss arrow behaviour fix
+http://info.sonicretro.org/SCHG_How-to:Fix_bug_in_ARZ_Boss_arrow%27s_platform_behavior
+- ARZ boss walking on air glitch
+http://info.sonicretro.org/SCHG_How-to:Fix_ARZ_Boss_Walking_on_Air_Glitch
+- OOZ launcher speed up fix
+http://info.sonicretro.org/SCHG_How-to:Fix_the_OOZ_launcher_speed_up_glitch
+- AI Tails forced-roll mode fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=694404
+- CNZ 2P background deformation fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=703578
+- Falling into water after being hurt fix
+http://info.sonicretro.org/SCHG_How-to:Collide_with_water_after_being_hurt
+
+flamewing
+- Spin Dash camera boundary bug
+http://info.sonicretro.org/SCHG_How-to:Fix_screen_boundary_spindash_bug
+- HTZ background scrolling fix
+http://info.sonicretro.org/SCHG_How-to:Fix_Hill_Top%27s_background_scrolling_mountains
+- Final Boss collision fix
+http://info.sonicretro.org/SCHG_How-to:Fix_DEZ_Eggrobo_boss_collision_glitch
+- EHZ spiral and MTZ cylinder AI Tails fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=700647
+- Screenwrap fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=702403
+- Silver Sonic & ARZ boss fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=757178
+- Level wrap fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=763336
+- Fix object collision from below
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=834639
+- OOZ and MTZ boss fixes
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=841541
+
+redhotsonic
+- Drowning bugs
+http://info.sonicretro.org/SCHG_How-to:Correct_Drowning_Bugs_in_Sonic_2
+- Tails' tails errors
+http://info.sonicretro.org/SCHG_How-to:Fix_Tails_subanimation_error
+- Bug with Tails' speed when he respawns
+http://info.sonicretro.org/SCHG_How-to:Fix_Tails%27_respawn_speeds
+- Accidental deletion of scattered rings
+http://info.sonicretro.org/SCHG_How-to:Fix_Accidental_Deletion_of_Scattered_Rings
+- Ring expiration timers fix
+http://info.sonicretro.org/SCHG_How-to:Fix_Ring_Timers
+- Rexon crash fix
+http://info.sonicretro.org/SCHG_How-to:Fix_Rexon_crash
+- Monitor collision issues
+http://info.sonicretro.org/SCHG_How-to:Fix_monitor_collision_bug
+- CPZ boss behaviour fix
+http://info.sonicretro.org/SCHG_How-to:Correct_CPZ_boss_attack_behavior
+- ARZ boss pillar behaviour fix
+http://info.sonicretro.org/SCHG_How-to:Fix_bug_in_ARZ_Boss_arrow%27s_platform_behavior
+- ARZ boss laughing fix
+http://info.sonicretro.org/SCHG_How-to:Fix_ARZ_boss_sprite_behavior
+- CNZ boss bugs
+http://info.sonicretro.org/SCHG_How-to:Fix_multiple_CNZ_boss_bugs
+- Ducking fix for Tails
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=693167
+- CPZ pipes while hurt bug
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=694373
+- MTZ wall springs roll-jumping fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=709116
+- MCZ vines roll-jump fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=718185
+- Fix for ARZ boss
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=758833
+
+qiuu
+- EHZ scrolling fix
+http://info.sonicretro.org/SCHG_How-to:Fix_the_EHZ_Deformation_bug
+
+Esrael
+- Boss destruction fix
+http://info.sonicretro.org/SCHG_How-to:Fix_Boss_Deconstruction_Behavior
+
+Clownacy
+- Debug mode bridge fix (really Mercury)
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=831283
+- ClearRAM corrections
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=833515
+- Duplicate WFZ PLCs
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=835379
+- Sprite limit fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=838380
+- CNZ background workaround
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=842948
+- Duplicate Sega sound fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=843101
+- MCZ boss fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=847647
+- MCZ boss laughing fix
+- Sonic walking around during level tally fix
+- Super Sonic transformation behaviour fix
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=911516
+- Rings disappearing on-screen
+- Rings not shaking with everything else during things like the HTZ earthquake sequences
+http://forums.sonicretro.org/index.php?showtopic=29029&view=findpost&p=913011

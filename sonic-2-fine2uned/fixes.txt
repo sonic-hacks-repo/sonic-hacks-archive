@@ -1,0 +1,193 @@
+Fixed a huge number of issues in the sound driver (check FixDriverBugs in the Git disasm for more info)
+
+Fixed demo playback not emulating held buttons
+
+Fixed Nemesis decompression race condition crash
+
+Fixed Sonic being able to turn Super after touching the signpost and softlocking the game
+
+Fixed Sonic being able to turn Super after opening the animal capsule, and hanging in the air
+
+Fixed Super Sonic being abnormally fast after transforming underwater
+
+Fixed Super form ring drain speed so it's *actually* one ring per second
+
+Fixed Super Sonic roll deceleration speed so it's not unnatural
+
+Fixed Super Sonic's transformation being glitchy when you've already transformed once in the level before
+
+Fixed Super Sonic transformation palette fade so the last colour isn't skipped
+
+Fixed Super Sonic transformation palette fade being incorrect when underwater
+
+Fixed Tails' roll deceleration speed so it works like S2 Sonic instead of S1 Sonic
+
+Fixed roll-jumping using Sonic's regular collision hitbox
+
+Fixed the player's jump height being nerfed when jumping out of shallow water
+
+Fixed spin dashing when at the level boundary
+
+Fixed spin dash losing its speed if you jump immediately after releasing
+
+Fixed numerous drowning bugs
+
+Fixed camera jittering up and down when rolling while playing as Tails
+
+Fixed Tails' tails bugging out when he's stood next to a solid object
+
+Fixed Tails' tails so they flash too when he gets hurt
+
+Fixed Tails respawning with the wrong speeds if he died underwater
+
+Fixed rings accidentally deleting in levels that wrap vertically
+
+Fixed scattered rings so their despawn isn't delayed if you quickly lose rings again
+
+Fixed monitors so you don't pass through them when jumping at them from the side
+
+Fixed EHZ scrolling bug at the bottom of the screen
+
+Fixed CPZ boss goo not hurting Sonic if he ducks
+
+Fixed ARZ boss pillar so you can't fall through it by jumping on it
+
+Fixed ARZ boss arrows, so you don't hover by walking off one of them
+
+Fixed ARZ boss pillars so you don't hover if you're stood on one when the boss is defeated
+
+Fixed ARZ boss animations freezing when it hurts the player
+
+Fixed a bunch of strange CNZ boss behaviours when you first hit it
+
+Fixed HTZ background so part of it doesn't jitter when scrolling
+
+Fixed OOZ launchers making Sonic fast if he falls into one after getting hurt
+
+Fixed final boss's collision, so you don't get sucked into it and die if you hit it a certain way
+
+Fixed MTZ/HTZ/ARZ bosses so their parts don't fall off in the wrong direction when you beat them
+
+Fixed multiple bugs involving Sonic/Tails using the wrong speeds
+
+Fixed Tails not getting a smaller hitbox when he ducks
+
+Fixed Sonic/Tails glitching out if they fall into a CPZ pipe by being hurt
+
+Fixed AI Tails using the wrong sprite when flying because he hit a forced-roll object, the EHZ spiral, or the MTZ cylinder
+
+Fixed the camera warp trick seen in speedruns
+
+Fixed the second player's background being wrong in two-player CNZ
+
+Fixed MTZ's wall springs/MCZ's vines locking Sonic/Tails' controls when you roll-jump into them
+
+Fixed Silver Sonic/ARZ/OOZ/MTZ boss strange behaviour when you beat them on a certain frame
+
+Fixed MCZ boss writing to a random part of the Mega Drive's memory
+
+Fixed the horizontal level wrap trick seen in speedruns
+
+Fixed MCZ boss not laughing when he hurts Sonic/Tails and they drop rings
+
+Fixed bridges interfering with Sonic in debug mode
+
+Fixed various instances of the game clearing too much memory
+
+Fixed object collision from below
+
+Removed duplicate WFZ PLC entries
+
+Fixed sprite table overflow (Ashura glitch)
+
+Fixed ARZ waterfall corrupted graphics
+
+#Fixed strange notes in CNZ credits music
+
+Fixed CNZ act 2 background blank row
+
+Fixed DEZ/CPZ door sprite so they're not corrupted
+
+Fixed debug mode having an inconsistent camera Y-deadzone
+
+Fixed ARZ pillar objects disappearing while on the edge of the screen
+
+Fixed getting a Game Over in HTZ corrupting the Continue screen
+
+Fixed ARZ/MCZ/DEZ boss rumbling causing the background to distort
+
+Fixed HTZ bridge stakes objects disappearing while on the edge of the screen
+
+Fixed starting the game through the options menu not reseting the number of collected Chaos Emeralds
+
+Fixed Sonic keeping his invincibility stars when he goes Super
+
+Fixed multi-sprite objects not mirroring in 2-player
+
+Fixed drowning next to a monitor causing Sonic to die in his walking animation
+
+Fixed Tails' pushing animation oddities
+
+Fixed DEZ music not resuming after beating Silver Sonic
+
+Fixed objects like the MCZ crushing pillar being able to make Sonic enter his walking animation while charging a spin dash
+
+Combined REV02's bugfixes with REV00's missing features.
+- Fixed game crash that happens when you enter debug mode while dying and place an object
+- Invisible wall object is now visible in debug mode
+- Invisible MTZ wall bumper object is now visible in debug mode
+- Fixed crash that occasionally happens when you kill a Rexon 
+
+Fixed errors in Sonic's mappings (one walking frame, and the black-and-white frame of his transformation)
+
+Fixed the player being able to walk around during the tally after touching the signpost by jumping near the right side of the screen
+
+Improved boot time
+
+Removed duplicate/inaccessible rings and objects
+
+Fixed Sonic's hand disappearing for one frame on the title screen
+
+Fixed a certain wall in CPZ2 that you could walk through by jumping over a plane switcher object
+
+Sped up level loading
+
+Fixed HTZ solidity so it's not possible to fall so fast that you clip through the floor and die in that one tall lava room in act 2
+
+Restored un-clipped Snare, Kick, Timpani, and Sega samples from Sonic 1
+
+Made drums fade with the rest of the music, instead of immediately going silent
+
+Fixed inconsistent 'E's on the 'THE HEDGEHOG' part of the title screen
+
+Fixed Super Sonic transformation not taking Sonic out of ball-mode (roll-jump control lock, smaller hitbox)
+
+Fixed ARZ having too many blocks, causing it to overflow its RAM buffer
+
+Fixed Sonic/Tails not slowing down, or creating a splash, if they fall into water after getting hit
+
+Fixed Level Select icons showing the wrong palette briefly right after changing the selected zone
+
+Added an invisible block to prevent a certain falling pillar from pushing you through the level in ARZ1
+
+Added an invisible block to prevent that platforms on the lava at the start of MTZ2 from pulling you through the ground
+
+Fixed frame-perfect Sonic/Tails sprite corruption and other minor irregularities in WFZ/ending cutscenes
+
+Fixed 14-Continues cheat causing OOZ music to play for the rest of the game
+
+Fixed "erratic" behaviour with object's detecting their distance from walls to their left
+
+Fixed 2P animated art loader accidentally overwriting its own loop counter
+
+Fixed rings disappearing when near the top of the screen
+
+Fixed rings not shaking with everything else during things like the HTZ earthquake sequences
+
+Fixed Tails having flesh-coloured arms in the Special Stages
+
+Fixed the shoe on the Speed Shoes monitor not having a white stripe on it
+
+Fixed HTZ seesaws not cancelling the spin dash if you're launched while charging it
+
+Fixed shield poking through the bottom of the tunnels in EHZ/HTZ

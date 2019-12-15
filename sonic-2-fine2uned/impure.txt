@@ -1,0 +1,7 @@
+Made it so you can duck while moving at slight speed, similar to S&K (though unlike S&K this does not change how fast you have to be to roll)
+
+Removed air speed cap
+
+Added S3K-style Super transformation, except you have to use alternating buttons, and you can detransform
+
+Made Tails able to enter Debug Mode
