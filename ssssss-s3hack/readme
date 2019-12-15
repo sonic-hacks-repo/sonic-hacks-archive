@@ -1,0 +1,17 @@
+I haven't done anything hacking-related in over one year (the last time being on the same day I released the final version of my old main project, 11th January 2014)). Just to get into the business again and enjoy the unknown, I've decided to crack up a little something on Sonic 3 & Knuckles, which I've never worked with before.
+
+VVVVVV (pronounced as "The letter V six times") is an indie platformer, that, instead of conventional jumping, requires the player to reverse gravity when they're standing on the ground to navigate through the levels. S3K's debug mode has such a feature already implemented, so it was just a matter of changing a few other things to make it feel more like the original game (things like capping gravity, removing HUD, etc).
+
+The game is largely unplayable, as most of the worlds were not intended to have this feature, and S3K is a nightmare to plow through. For that reason, a checkpoint feature was included, which lets you place a hidden checkpoint flag you can manually teleport to at any time. I could probably fix the game to make it properly playable without that, but as the tiny project it is that's all I'm willing to do (and, once again, S3K's disassembly is a jungle).
+
+Play on Death Egg Zone or Flying Battery Zone (or really any stage in a closed space) to get the best experience!
+
+(Quick thanks goes to Varion for sharing a few things to know about S3K.)
+
+
+
+Controls
+
+    C: Reverse gravity (while standing on ground)
+    B: Make a checkpoint to teleport to when you take damage (if none is set, you die)
+    A: Teleport to set checkpoint manually
