@@ -1,0 +1,39 @@
+I'd consider myself a beginner to hacking, just started off a little differently: I rather fiddled around with some asm and some simplistic art instead of concentrating on palettes and original layout.
+
+Having always liked it, I extended on the smashable Marble Zone block allowing for the fragments to remain in the level, and set a level design around it. It is a attempt to add puzzle elements to a sonic game. As it is possible to screw up without dying, I case you get stuck, the teleport monitor will allow you to restart the level.
+This version features two levels, the first one is very slow-paced featuring only the basic block object; I tried to speed up the second one adding some springs and new subtypes of the object featuring alternate gravity.
+Level designs are preliminary, so if you suddenly see the sky full of blocks then it is a problem with the level layout.
+
+[​IMG] [​IMG]
+
+Collision with 16x16 blocks is rather awkward, so I'm contemplating rewriting the code for 32x32 blocks. Not quite certain though, as the blocks might get overly huge then...
+I also intend to add a SolidObject check for the fragments, as due to the lack of it as of now some collision issues may arise when the blocks are landing on Sonic's feet.
+Suggestions and thoughts on this are welcome.
+
+I drew the foreground art myself, though it is obviously inspired by Fez and a Knytt Stories tileset by pip inspired by Fez. I'm admittedly a lousy artist.
+The background art is from Marble Garden Zone with a custom layer deformation routine trying to resemble the original scrolling as closely as possible.
+I haven't looked into music hacking yet (I usually play without sound anyways), so I just replaced the unsuitable CNZ music with EHZ2P, don't mean to say that it fits though...
+
+----------------
+
+New version, even for those who didn't like the concept I recommend to check out CNZ4. :)
+
+- some bugfixes (primarily collision)
+- new zone CPZ (see below)
+- added larger 32x32 block object that doesn't fall into pieces
+- four new stages (CPZ 1&2, CNZ3 [not quite pleased with it], CNZ 4 as boss stage)
+- slight edit of existing stages
+
+[​IMG] [​IMG]
+I wonder whether anyone recognizes these graphics...
+
+[​IMG]
+Sprite done by Oppolo according to the sprite sheet.
+
+Screenshots of CNZ4 tomorrow. EDIT:
+[​IMG] [​IMG]
+
+Still playing without sound, so no significant changes there. 
+
+-------------------------
+
