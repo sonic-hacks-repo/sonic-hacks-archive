@@ -1,0 +1,23 @@
+=====================
+Levels
+=====================
+Extra act - Green Hill Zone (object placement is unfinished)
+Extra zone - Jungle Zone
+
+=====================
+Objects
+=====================
+Heat shield (Marble Zone)
+Scuba shield (Labyrinth Zone)
+Boss hit counter (not working properly in some levels)
+
+=====================
+Misc.
+=====================
+Spindash (ported from S2F)
+Expanded level select
+Title screen updated
+Continue feature - reload the last zone you were in and your chaos emeralds, even after closing the ROM!
+Record your own demo in debug mode (stored at 0x20 in the saveRAM)
+Debug mode enabled by default (A+Start)
+Marble Zone pillars have been fixed
