@@ -1,3 +1,4 @@
+# Some Older Patches here : https://github.com/sonic-hacks-repo/sonicology-ips-archive
 # sonic-hacks-archive
 If you have any hacks you want to add to this repo email me at shr4356@protonmail.com
 
